@@ -24,5 +24,6 @@ def find_the_cheese(array)# code an argument here
     array.each do |x|
       if x.include?(cheese_types)
         puts "#{x}"
+      end
     end
 end
