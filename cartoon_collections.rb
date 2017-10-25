@@ -23,7 +23,8 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
     array.each do |x|
       if x.include?(cheese_types)
-        puts "'#{[cheese_types]}'"
+        x.to_s
+        puts "'#{x}'"
       end
     end
 end
